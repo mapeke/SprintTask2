@@ -1,0 +1,550 @@
+body{
+    margin: 0;
+    background-color: rgb(232,234,237);
+}
+
+.header{
+    background-color:rgb(70, 130, 180);
+    display: flex;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+}
+
+/*  SEARCH */
+
+.search{
+    margin-left: 10%;
+    display: flex;
+}
+
+.search input, button {
+    outline: none;
+    background-color: rgb(48, 90, 123);
+    border: none;
+}
+
+.search input {
+    width: 50%;
+    height: 30px;
+    padding-left: 15px;
+}
+.first {
+    height: 30px;
+    width: 30px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.second{
+    height: 30px;
+    width: 30px;
+    top: 0;
+    right: 0;
+    cursor:text;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.first:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+
+.cont{
+    margin-top: 20px;
+    display: flex;
+}
+
+/* LINKS */
+.links{
+    margin-left: 10%;
+    width: 10%;
+    
+}
+.link{
+    margin-top: 5px;
+    
+}
+
+.link a{
+    text-decoration: none;
+    color: rgb(70, 130, 180);
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* PROFILE */
+.profile{
+    margin-left: 40px;
+    width: 20%;
+
+}
+
+.profile_info{
+    padding: 15px;
+    background-color: white;
+    border-radius: 1ch;
+}
+
+.profile_img img{
+    width: 270px;
+    height: 270px;
+}
+
+.profile_edit button{
+    background-color: lightgrey;
+    color: rgb(70, 130, 180);
+    height: 30px;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* PROFILE FRIENDS */
+.profile_friends{
+    padding: 15px;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 1ch;
+}
+
+.profile_friends_card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.friends_text a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(70, 130, 180);
+}
+
+.friends_text label{
+    color: rgb(70, 130, 180);
+}
+
+.img_cont{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.profile_friends_image label{
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgb(70, 130, 180);
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile_friends_image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+/* CONTENT */
+.content{
+    margin-left: 20px;
+    margin-right: 10%;
+    width: 45%;
+}
+
+.info{
+    background-color: white;
+    border-radius: 1ch;
+}
+
+.info_cont{
+    padding: 10px;
+}
+
+.info_title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_title label{
+    color: grey;
+    font-size: 12px;
+}
+
+.info_name{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.info_main{
+    border-bottom: 1px solid lightgrey;
+    padding: 5px;
+    display: flex;
+}
+
+.info_grey{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.info_blue{
+    color: rgb(70, 130, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 20%;
+}
+
+.info_numbers{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.number{
+    color: rgb(70, 130, 180);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.num_inf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: grey;
+    margin: 0;
+}
+
+.number_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* MY PHOTOS */
+
+.photos_info{
+    margin-top: 15px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius:1ch;
+    padding: 20px;
+}
+
+.photo_text{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.lab1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.lab2{
+    margin-left: 10px;
+    color: grey;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.photos img{
+    width: 130px;
+    height: 130px;
+}
+
+.photos{
+    display:flex;
+    justify-content: space-around;
+}
+
+.news{
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 1ch;
+    padding: 10px;
+}
+
+.news_pro{
+    display: flex;
+}
+
+.news_image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.news_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.news_text_name{
+    color: rgb(70, 130, 180);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news_date{
+    color: grey;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.news_desc{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+
+/* ******************************** PAGE 2      ******************************/
+.frineds_cont{
+    background-color: white;
+    border-radius: 1ch;
+    border: 1px solid lightgrey;
+    width: 45%;
+    margin-left: 30px;
+}
+
+.cont_info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.friends_info{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.allfriends{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.allfriendsnum{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: grey;
+    
+}
+
+.searchFriends{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    border-radius: 1ch;
+    align-items: center;
+}
+
+/*  SEARCH FRINEDS */
+
+.searchFriendlens{
+    display: flex;
+    margin: 10px;
+}
+
+.searchFriendlens button, input{
+    outline: none;
+    background-color: white;
+    border: none;
+}
+
+.firstfriend{
+    height: 30px;
+    width: 30px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.firstfriend:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: black;
+}
+
+.searchFriendlens input {
+    width: 50%;
+    height: 30px;
+    padding-left: 15px;
+}
+
+.friends_list{
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+}
+
+.friend_card{
+    padding: 10px;
+    display:flex;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+}
+
+.friend_card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.frbut{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.friend_profile{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.friend_profile a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color:rgb(70, 130, 180);
+}
+
+.friend_name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color:rgb(70, 130, 180);
+}
+
+.frined_edu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color:grey;
+}
+
+.friend_card button{
+    background-color: white;
+}
+
+.ellipsis{
+    display: flex;
+    align-items: flex-start;
+}
+
+.ellipsis:before{
+    content: "\f141";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: rgb(48, 90, 123);
+    padding: 0;
+    cursor: pointer;
+}
+/******* TABS ******/
+.tabs{
+    margin-left: 15px;
+    width: 20%;
+}
+
+.friend_tab{
+    padding: 10px;
+    background-color: white;
+    border-radius: 1ch;
+}
+
+.friend_tabs{
+    color:rgb(70, 130, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.friend_tabs:hover{
+    background-color: rgb(237,237,253);
+    font-weight: bold;
+    color:black
+}
+
+.possible_friends{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 1ch;
+    padding: 10px;
+}
+
+.poss{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.possible_card img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.possible_card{
+    display: flex;
+    align-items: center;
+}
+
+.possible_profile a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(70, 130, 180);
+}
+
+.possible_profile{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pos_name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color:rgb(70, 130, 180);
+}
+
+.pos_edu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color:grey;
+}
